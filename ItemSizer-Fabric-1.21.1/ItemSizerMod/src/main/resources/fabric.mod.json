@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "itemsizer",
+  "version": "1.0.0",
+  "name": "Item Sizer",
+  "description": "Changes the rendered size of all items.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.itemsizer.ItemSizerMod"
+    ]
+  },
+  "mixins": [
+    "itemsizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
